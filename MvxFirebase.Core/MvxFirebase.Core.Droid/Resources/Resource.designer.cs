@@ -52,26 +52,35 @@ namespace MvxFirebase.Core.Droid
 		public partial class Attribute
 		{
 			
-			// aapt resource value: 0x7f010000
-			public const int MvxBind = 2130771968;
-			
-			// aapt resource value: 0x7f010004
-			public const int MvxDropDownItemTemplate = 2130771972;
-			
-			// aapt resource value: 0x7f010005
-			public const int MvxGroupItemTemplate = 2130771973;
-			
 			// aapt resource value: 0x7f010003
-			public const int MvxItemTemplate = 2130771971;
+			public const int MvxBind = 2130771971;
 			
-			// aapt resource value: 0x7f010001
-			public const int MvxLang = 2130771969;
+			// aapt resource value: 0x7f010007
+			public const int MvxDropDownItemTemplate = 2130771975;
+			
+			// aapt resource value: 0x7f010008
+			public const int MvxGroupItemTemplate = 2130771976;
 			
 			// aapt resource value: 0x7f010006
-			public const int MvxSource = 2130771974;
+			public const int MvxItemTemplate = 2130771974;
+			
+			// aapt resource value: 0x7f010004
+			public const int MvxLang = 2130771972;
+			
+			// aapt resource value: 0x7f010009
+			public const int MvxSource = 2130771977;
+			
+			// aapt resource value: 0x7f010005
+			public const int MvxTemplate = 2130771973;
 			
 			// aapt resource value: 0x7f010002
-			public const int MvxTemplate = 2130771970;
+			public const int circleCrop = 2130771970;
+			
+			// aapt resource value: 0x7f010001
+			public const int imageAspectRatio = 2130771969;
+			
+			// aapt resource value: 0x7f010000
+			public const int imageAspectRatioAdjust = 2130771968;
 			
 			static Attribute()
 			{
@@ -105,14 +114,23 @@ namespace MvxFirebase.Core.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f040000
-			public const int MvvmCrossTagId = 2130968576;
+			// aapt resource value: 0x7f060000
+			public const int MvvmCrossTagId = 2131099648;
 			
-			// aapt resource value: 0x7f040001
-			public const int MvxBindingTagUnique = 2130968577;
+			// aapt resource value: 0x7f060001
+			public const int MvxBindingTagUnique = 2131099649;
 			
-			// aapt resource value: 0x7f040002
-			public const int myButton = 2130968578;
+			// aapt resource value: 0x7f060002
+			public const int adjust_height = 2131099650;
+			
+			// aapt resource value: 0x7f060003
+			public const int adjust_width = 2131099651;
+			
+			// aapt resource value: 0x7f060005
+			public const int myButton = 2131099653;
+			
+			// aapt resource value: 0x7f060004
+			public const int none = 2131099652;
 			
 			static Id()
 			{
@@ -120,6 +138,22 @@ namespace MvxFirebase.Core.Droid
 			}
 			
 			private Id()
+			{
+			}
+		}
+		
+		public partial class Integer
+		{
+			
+			// aapt resource value: 0x7f040000
+			public const int google_play_services_version = 2130968576;
+			
+			static Integer()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Integer()
 			{
 			}
 		}
@@ -149,11 +183,14 @@ namespace MvxFirebase.Core.Droid
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f060001
-			public const int app_name = 2131099649;
+			// aapt resource value: 0x7f050002
+			public const int app_name = 2131034114;
 			
-			// aapt resource value: 0x7f060000
-			public const int hello = 2131099648;
+			// aapt resource value: 0x7f050000
+			public const int common_google_play_services_unknown_issue = 2131034112;
+			
+			// aapt resource value: 0x7f050001
+			public const int hello = 2131034113;
 			
 			static String()
 			{
@@ -168,8 +205,8 @@ namespace MvxFirebase.Core.Droid
 		public partial class Style
 		{
 			
-			// aapt resource value: 0x7f050000
-			public const int Theme_Splash = 2131034112;
+			// aapt resource value: 0x7f070000
+			public const int Theme_Splash = 2131165184;
 			
 			static Style()
 			{
@@ -184,9 +221,23 @@ namespace MvxFirebase.Core.Droid
 		public partial class Styleable
 		{
 			
-			public static int[] MvxBinding = new int[] {
+			public static int[] LoadingImageView = new int[] {
 					2130771968,
-					2130771969};
+					2130771969,
+					2130771970};
+			
+			// aapt resource value: 2
+			public const int LoadingImageView_circleCrop = 2;
+			
+			// aapt resource value: 1
+			public const int LoadingImageView_imageAspectRatio = 1;
+			
+			// aapt resource value: 0
+			public const int LoadingImageView_imageAspectRatioAdjust = 0;
+			
+			public static int[] MvxBinding = new int[] {
+					2130771971,
+					2130771972};
 			
 			// aapt resource value: 0
 			public const int MvxBinding_MvxBind = 0;
@@ -195,26 +246,26 @@ namespace MvxFirebase.Core.Droid
 			public const int MvxBinding_MvxLang = 1;
 			
 			public static int[] MvxControl = new int[] {
-					2130771970};
+					2130771973};
 			
 			// aapt resource value: 0
 			public const int MvxControl_MvxTemplate = 0;
 			
 			public static int[] MvxExpandableListView = new int[] {
-					2130771973};
+					2130771976};
 			
 			// aapt resource value: 0
 			public const int MvxExpandableListView_MvxGroupItemTemplate = 0;
 			
 			public static int[] MvxImageView = new int[] {
-					2130771974};
+					2130771977};
 			
 			// aapt resource value: 0
 			public const int MvxImageView_MvxSource = 0;
 			
 			public static int[] MvxListView = new int[] {
-					2130771971,
-					2130771972};
+					2130771974,
+					2130771975};
 			
 			// aapt resource value: 1
 			public const int MvxListView_MvxDropDownItemTemplate = 1;

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "14811556559",
+    "firebase_url": "https://vsme-1085.firebaseio.com",
+    "project_id": "vsme-1085",
+    "storage_bucket": "vsme-1085.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:14811556559:android:0072fabd6b179fee",
+        "android_client_info": {
+          "package_name": "MvxFirebase.Core.Droid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "14811556559-05qqiinfs18j7shgjjifo4i6265ie1mv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdoEMJ70lkokeGf9qlotLbICEVhNUO5bs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
